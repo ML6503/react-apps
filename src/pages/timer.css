@@ -1,0 +1,35 @@
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+} */
+
+.timer-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.timer-button {
+  margin: 2%;
+  background-color: olivedrab;
+  width: 80px;
+  height: 100%;
+  border-radius: 10%;
+}
+
+.timer-container {
+  background-color: rgb(197, 132, 11);
+  border-radius: 5%;
+  border: 10px black;
+  width: 90%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  flex-direction: column;
+}
+
+.timer {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 50px;
+  padding: 5%;
+}
